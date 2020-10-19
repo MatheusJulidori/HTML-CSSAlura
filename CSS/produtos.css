@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+.logo img {
+    margin-left: 80%;
+    margin-top: 12%;
+}
+
+nav {
+    margin: 6.5% 40%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    margin: 0 12px;
+}
+
+nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 27px;
+    color: rgb(241, 186, 4);
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    color: rgb(241, 166, 4);
+}
