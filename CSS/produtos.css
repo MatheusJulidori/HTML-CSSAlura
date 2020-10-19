@@ -1,41 +1,36 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 header {
-    display: flex;
-    justify-content: space-between;
-    background-color: gray;
+    background-color: #BBBBBB;
+    padding: 10px 0;
+    border-bottom: 2px solid black;
 }
 
-.logo img {
-    margin-left: 80%;
-    margin-top: 12%;
-}
-
-nav {
-    margin: 6.5% 40%;
-}
-
-nav ul {
-    display: flex;
+.container {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
 }
 
 nav li {
     display: inline;
-    margin: 0 12px;
+    margin: 0 0 0 15px;
 }
 
 nav li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 27px;
-    color: rgb(241, 186, 4);
+    color: #000000;
+    font-weight: bolder;
+    font-size: 22px;
 }
 
 nav li a:hover {
     text-decoration: underline;
-    color: rgb(241, 166, 4);
+    color: #e4850a;
+}
+
+nav ul {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    margin-right: 200px;
 }
