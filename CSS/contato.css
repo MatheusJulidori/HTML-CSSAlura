@@ -27,18 +27,20 @@ form {
 }
 
 form label,
-form p {
-    font-weight: bold;
+form p,
+form legend {
     display: block;
+    ;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
 .input-padrao {
+    font-size: 15px;
     border-radius: 5px;
     display: block;
     margin: 0 auto 20px;
-    padding: 10px 25px;
+    padding: 10px 3px;
     width: 50%;
 }
 
@@ -54,21 +56,54 @@ select {
 }
 
 #radio-options {
-    margin: 10px auto;
+    margin: 0 auto;
     width: 140px;
     text-align: left;
 }
 
 #submit-button {
-    font-size: 15px;
+    font-size: 20px;
+    border: 1px solid black;
     padding: 5px;
+    font-weight: bold;
     border-radius: 5px;
+    transition: background .2s;
+    background-color: #e4850a;
 }
 
 #submit-button:hover {
-    background-color: #e4850a;
+    background-color: #f0a441;
+    cursor: pointer;
 }
 
 #submit-button:active {
     background-color: #5fc010;
+    cursor: pointer;
+}
+
+
+/*Table*/
+
+#table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    font-size: 20px;
+    margin: 20px 0 40px;
+    background-color: white;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
