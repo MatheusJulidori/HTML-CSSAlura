@@ -82,3 +82,19 @@ nav ul {
     border: 2px solid #5da500;
     color: #5da500;
 }
+
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    border-top: 2px solid black;
+    padding: 40px 0;
+    color: white;
+    font-size: 12px;
+    background-image: url(../Img/bg.jpg);
+}
+
+footer p {
+    margin-top: 20px;
+}
