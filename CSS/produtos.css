@@ -1,3 +1,5 @@
+/*Cabeçalho*/
+
 header {
     background-color: #BBBBBB;
     padding: 10px 0;
@@ -33,4 +35,50 @@ nav ul {
     top: 110px;
     right: 0;
     margin-right: 200px;
+}
+
+
+/*Main*/
+
+.produtos {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 50px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 2% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.produtos li h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.preco {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 0 0;
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.produtos li:hover {
+    border: 2px solid #e4850a;
+    color: #e4850a;
+}
+
+.produtos li:active {
+    border: 2px solid #5da500;
+    color: #5da500;
 }
