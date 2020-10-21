@@ -1,3 +1,43 @@
+/*Cabeçalho*/
+
+header {
+    background-color: #BBBBBB;
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+}
+
+.container {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    color: #e4850a;
+}
+
+nav ul {
+    position: absolute;
+    top: 110px;
+    left: 753px;
+    margin-right: 300px;
+    width: 70%;
+}
+
 #banner {
     width: 100%;
 }
@@ -45,4 +85,20 @@ ul {
 
 .imagembeneficios {
     width: 50%;
+}
+
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    border-top: 2px solid black;
+    padding: 40px 0;
+    color: white;
+    font-size: 12px;
+    background-image: url(../Img/bg.jpg);
+}
+
+footer p {
+    margin-top: 20px;
 }
