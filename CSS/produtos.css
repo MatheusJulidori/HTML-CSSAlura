@@ -45,3 +45,22 @@
     border: 2px solid #5da500;
     color: #5da500;
 }
+
+@media screen and (max-width:480px) {
+    .container,
+    .produtos {
+        width: auto;
+    }
+    .produtos li {
+        display: block;
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px 0;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+}
