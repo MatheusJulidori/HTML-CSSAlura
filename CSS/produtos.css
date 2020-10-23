@@ -16,6 +16,8 @@
     margin: 2% 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    transition: color 0.5s;
+    transition: box-shadow 0.5s;
 }
 
 .produtos li h2 {
@@ -36,6 +38,7 @@
 .produtos li:hover {
     border: 2px solid #e4850a;
     color: #e4850a;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .produtos li:active {
